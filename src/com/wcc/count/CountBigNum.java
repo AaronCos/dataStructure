@@ -21,10 +21,10 @@ public class CountBigNum {
 	}
 	
 	//必须转化成字符串，才能狗够实现精确计算
-	public static BigDecimal subtracts(double d1,double d2){
+	public static double subtracts(double d1,double d2){
 		BigDecimal b1 = new BigDecimal(Double.toString(d1));
 		BigDecimal b2 = new BigDecimal(Double.toString(d2));
-		return b1.subtract(b2);
+		return b1.subtract(b2).doubleValue();//最终转化成常用的基本数据类型
 		
 		
 	}
