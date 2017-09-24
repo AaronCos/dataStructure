@@ -7,7 +7,6 @@ public class MyLink {
 	}
 
 }
-
 class Linkb{
 	private String name;
 	private int age;
